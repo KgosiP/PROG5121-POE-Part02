@@ -42,7 +42,7 @@ public class ChatApp {
         String loginStatus = user.returnLoginStatus(enteredUsername, enteredPassword);
         System.out.println(loginStatus);
 
-        // Only continue if login was successful
+        // continues only when login is successful to ensure security.
         if (loginStatus.startsWith("Welcome")) {
             System.out.println("\nWelcome to QuickChat.");
 
