@@ -51,7 +51,7 @@ public class MessageTest {
         assertTrue(hash.endsWith("HITONIGHT?"));
     }
 
-    // Test message ID is created and not more than 10 characters
+    // ensures that text ID is created and does not exceed 10 characters.
     @Test
     public void testMessageIDCreated() {
         Message msg = new Message(0, "+27718693002", "Hi Mike, can you join us for dinner tonight?");
