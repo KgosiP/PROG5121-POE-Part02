@@ -85,7 +85,7 @@ public class ChatApp {
                             System.out.println("Message ready to send.");
                         }
 
-                        // Ask what to do with the message
+                        // prompts the user on possible outcomes with the message.
                         System.out.println("\n1) Send Message");
                         System.out.println("2) Disregard Message");
                         System.out.println("3) Store Message");
