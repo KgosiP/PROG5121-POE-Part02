@@ -100,7 +100,7 @@ public class ChatApp {
                         System.out.println(msg.sentMessage(sendChoice));
                     }
 
-                    // Display total messages sent
+                    // ptompts the user on the total amount of messages.
                     System.out.println("\nTotal messages sent: " + Message.getTotalMessages());
 
                 } else if (menuChoice == 2) {
