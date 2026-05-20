@@ -41,7 +41,7 @@ public class Message {
        return String.valueOf(id);
    }
    
-   // checks to ensure that the generated ID is no more than 10 characters.
+   // ensures that the generated ID does not exceed 10 characters.
    public boolean checkMessageID() {
        return messageID.length() <= 10;
        
