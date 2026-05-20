@@ -46,7 +46,7 @@ public class ChatApp {
         if (loginStatus.startsWith("Welcome")) {
             System.out.println("\nWelcome to QuickChat.");
 
-            // Ask how many messages the user wants to send
+            // prompts the user on the amount of messages they would like to send.
             System.out.print("How many messages would you like to send? ");
             int numMessages = Integer.parseInt(input.nextLine());
 
