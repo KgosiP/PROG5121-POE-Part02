@@ -29,7 +29,7 @@ public class MessageTest {
         assertFalse(msg.getMessageText().length() <= 250);
     }
 
-    // Test recipient number correctly formatted
+    // ensures that the recipient number is correctly formatted.
     @Test
     public void testRecipientCellSuccess() {
         Message msg = new Message(0, "+27718693002", "Hi Mike, can you join us for dinner tonight?");
